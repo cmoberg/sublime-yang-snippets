@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+container $1 {
+	$0
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cont</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.yang</scope>
+</snippet>
+<snippet>
+	<content><![CDATA[
+list $1 {
+	key $2;
+	$3
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>xlist</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.yang</scope>
+</snippet>

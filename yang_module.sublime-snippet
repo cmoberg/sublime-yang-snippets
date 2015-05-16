@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+module $1 {
+
+    namespace "$2";
+    prefix $3;
+
+    organization
+      "$4";
+
+    contact
+      "$5";
+
+    description
+      "$6";
+
+    revision $7 {
+      description
+        "$8";
+      reference
+        "$9";
+    }
+
+    $0
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>xmodule</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.yang</scope>
+</snippet>
