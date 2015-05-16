@@ -1,5 +1,5 @@
 {
-    "cmd": ["/Users/camoberg/tailf-releases/ncs-3.4.1/bin/pyang", "--ietf", "-f", "tree", "$file"],
+    "cmd": ["/usr/local/bin/pyang", "--ietf", "-f", "tree", "$file"],
     "file_regex": "^([a-zA-Z0-9\\\\/-]+[.]yang):([0-9]+):(.*$)",
     "selector": "source.yang"
 }
